@@ -15,8 +15,8 @@ jobs:
         with:
           username: ericsonmessias
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: ericsonmessias/server.go
-          tags: ${{ github.sha }}, argo-latest
+          repository: ericsonmessias/goapp
+          tags: ${{ github.sha }}, latest
   deploy:
     name: Deploy 
     runs-on: ubuntu-latest
@@ -33,7 +33,7 @@ jobs:
       - name: update k8s 
         run: |
           cd k8s
-          kustomize edit set image goapp=ericsonmessias/server.go:${{ github.sha }}
+          kustomize edit set image goapp=ericsonmessias/goapp:${{ github.sha }}
           cat kustomization.yaml
 
       - name: commit

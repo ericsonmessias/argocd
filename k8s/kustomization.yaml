@@ -8,4 +8,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: ericsonmessias/goapp
-  newTag: 9d8ae83fc023b9848d2868387d5ee08e1d55e3f1
+  newTag: 21af630c8874528f4825ec4879f10d45d2317440

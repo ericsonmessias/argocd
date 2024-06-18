@@ -7,5 +7,5 @@ resources:
 namespace: goapp
 images:
 - name: goapp
-  newName: ericsonmessias/server.go
-  newTag: 6dc3919e10f8c71a9628ff188aafeac852c47858
+  newName: ericsonmessias/goapp
+  newTag: 422389d4953a5dc9e7cb1e05753f0c4126d2556b

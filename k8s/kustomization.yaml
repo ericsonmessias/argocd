@@ -7,5 +7,5 @@ resources:
 namespace: goapp
 images:
 - name: goapp
-  newName: ericsonmessias/goapp
-  newTag: a0b42880facd296582772af06a33b1b4c26e42b2
+  newName: goapp
+  newTag: latest

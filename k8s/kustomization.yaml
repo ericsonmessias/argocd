@@ -6,6 +6,6 @@ resources:
 
 namespace: goapp
 images:
-  - name: goapp
-    newName: ericsonmessias/server.go
-    newTag: argo-latest
+- name: goapp
+  newName: ericsonmessias/server.go
+  newTag: 04f596720e79e209f2fa13d8be76d679d8044b43
